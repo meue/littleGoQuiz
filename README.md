@@ -14,7 +14,7 @@ A simple, interactive quiz application for the terminal – ideal for learning a
 
 ```bash
 git clone https://github.com/meue/littleGoQuiz.git
-cd littleGoQuiz
+cd littleGoQuiz/src
 go build -o quiz
 ./quiz
 ```
