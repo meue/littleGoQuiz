@@ -1,0 +1,1103 @@
+{
+  "questions": [
+    {
+      "ask": "Which of the following attacks specifically targets the ARP cache of network hosts?",
+      "answers": {
+        "a": "DNS poisoning",
+        "b": "MAC flooding",
+        "c": "ARP spoofing",
+        "d": "IP spoofing"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "What security concept ensures that sensitive data is only accessible to those who are authorized?",
+      "answers": {
+        "a": "Integrity",
+        "b": "Availability",
+        "c": "Confidentiality",
+        "d": "Non-repudiation"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which port does the Kerberos authentication protocol primarily use?",
+      "answers": {
+        "a": "389",
+        "b": "443",
+        "c": "88",
+        "d": "636"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "A vulnerability scan reports that a server supports 'SSLv3'. What kind of risk does this indicate?",
+      "answers": {
+        "a": "Weak hashing algorithm",
+        "b": "Strong encryption",
+        "c": "Use of deprecated protocols",
+        "d": "Excessive logging"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which of the following BEST describes the function of a TPM?",
+      "answers": {
+        "a": "Encrypts internet traffic",
+        "b": "Manages digital certificates in the cloud",
+        "c": "Provides hardware-based cryptographic key storage",
+        "d": "Detects and prevents SQL injections"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which type of malware relies on disguising itself as legitimate software?",
+      "answers": {
+        "a": "Worm",
+        "b": "Trojan",
+        "c": "Rootkit",
+        "d": "Spyware"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What is the PRIMARY purpose of a demilitarized zone (DMZ) in a network architecture?",
+      "answers": {
+        "a": "Prevent social engineering",
+        "b": "Limit broadcast traffic",
+        "c": "Segregate publicly accessible servers from internal systems",
+        "d": "Encrypt sensitive data in transit"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which of the following is a **control type** associated with a firewall?",
+      "answers": {
+        "a": "Compensating",
+        "b": "Detective",
+        "c": "Corrective",
+        "d": "Preventive"
+      },
+      "correct": "d"
+    },
+    {
+      "ask": "Which protocol is commonly used to securely administer network devices via command-line?",
+      "answers": {
+        "a": "SNMPv2",
+        "b": "Telnet",
+        "c": "SSH",
+        "d": "RDP"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "What does the principle of least privilege enforce?",
+      "answers": {
+        "a": "Users should have access to all logs",
+        "b": "Users should only have the access necessary for their tasks",
+        "c": "Administrators must use the same account for all actions",
+        "d": "Services should run with root permissions by default"
+      },
+      "correct": "b"
+    },{
+      "ask": "What type of attack involves intercepting and altering communication between two parties without their knowledge?",
+      "answers": {
+        "a": "Man-in-the-middle",
+        "b": "Phishing",
+        "c": "SQL Injection",
+        "d": "Brute force"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which cryptographic method uses a pair of keys, one public and one private?",
+      "answers": {
+        "a": "Symmetric encryption",
+        "b": "Asymmetric encryption",
+        "c": "Hashing",
+        "d": "Steganography"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which device is primarily used to segment a network into separate collision domains?",
+      "answers": {
+        "a": "Router",
+        "b": "Switch",
+        "c": "Hub",
+        "d": "Repeater"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What does the acronym DLP stand for in cybersecurity?",
+      "answers": {
+        "a": "Data Loss Prevention",
+        "b": "Digital Layer Protocol",
+        "c": "Distributed Login Process",
+        "d": "Dynamic Link Protection"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which attack technique involves overwhelming a target with traffic to cause denial of service?",
+      "answers": {
+        "a": "Phishing",
+        "b": "DDoS",
+        "c": "Man-in-the-middle",
+        "d": "Spoofing"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which of the following is an example of multifactor authentication?",
+      "answers": {
+        "a": "Username and password",
+        "b": "Password and security question",
+        "c": "Fingerprint and smart card",
+        "d": "Username and PIN"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "What is the primary purpose of a honeypot in network security?",
+      "answers": {
+        "a": "To improve system performance",
+        "b": "To attract and analyze attackers",
+        "c": "To block unauthorized access",
+        "d": "To encrypt network traffic"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which protocol is used to securely transfer files over a network?",
+      "answers": {
+        "a": "FTP",
+        "b": "SFTP",
+        "c": "HTTP",
+        "d": "Telnet"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What kind of attack exploits vulnerabilities in web applications by inserting malicious code?",
+      "answers": {
+        "a": "Cross-site scripting (XSS)",
+        "b": "Man-in-the-middle",
+        "c": "Brute force",
+        "d": "Phishing"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which security model is based on a lattice of security labels to control access?",
+      "answers": {
+        "a": "Bell-LaPadula",
+        "b": "Clark-Wilson",
+        "c": "Biba",
+        "d": "Brewer and Nash"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which of these is NOT a principle of secure system design?",
+      "answers": {
+        "a": "Least privilege",
+        "b": "Fail open",
+        "c": "Defense in depth",
+        "d": "Separation of duties"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What does the term 'pharming' refer to?",
+      "answers": {
+        "a": "Redirecting users to fake websites",
+        "b": "Intercepting emails",
+        "c": "Brute forcing passwords",
+        "d": "Malware installation"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which protocol is commonly used for sending email securely?",
+      "answers": {
+        "a": "SMTP",
+        "b": "SMTPS",
+        "c": "POP3",
+        "d": "IMAP"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What kind of backup method copies all data since the last full backup?",
+      "answers": {
+        "a": "Incremental",
+        "b": "Differential",
+        "c": "Full",
+        "d": "Snapshot"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which of the following is a physical security control?",
+      "answers": {
+        "a": "Firewall",
+        "b": "Biometric scanner",
+        "c": "Encryption",
+        "d": "Access control list"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which tool is typically used to analyze network traffic?",
+      "answers": {
+        "a": "Wireshark",
+        "b": "Nmap",
+        "c": "Metasploit",
+        "d": "John the Ripper"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "What does the principle of 'separation of duties' aim to prevent?",
+      "answers": {
+        "a": "System failures",
+        "b": "Fraud and errors",
+        "c": "Network congestion",
+        "d": "Data encryption"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which type of attack uses multiple compromised systems to launch a coordinated attack?",
+      "answers": {
+        "a": "Phishing",
+        "b": "Botnet",
+        "c": "Ransomware",
+        "d": "SQL injection"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "What is the primary difference between a virus and a worm?",
+      "answers": {
+        "a": "Viruses require user interaction to spread; worms do not",
+        "b": "Worms are harmless; viruses are malicious",
+        "c": "Viruses only infect files; worms only infect emails",
+        "d": "There is no difference"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which of the following is an example of social engineering?",
+      "answers": {
+        "a": "DDoS attack",
+        "b": "Tailgating",
+        "c": "Man-in-the-middle",
+        "d": "SQL injection"
+      },
+      "correct": "b"
+    },
+    {
+    "ask": "Which of the following BEST describes a man-in-the-middle attack using rogue wireless access points?",
+    "answers": {
+      "a": "Evil twin",
+      "b": "Bluejacking",
+      "c": "Replay attack",
+      "d": "War driving"
+    },
+    "correct": "a"
+    },
+    {
+      "ask": "Which type of malware is designed to provide continued privileged access to a compromised system while hiding its presence?",
+      "answers": {
+        "a": "Logic bomb",
+        "b": "Ransomware",
+        "c": "Rootkit",
+        "d": "Worm"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which of the following cryptographic attacks involves trying every possible key until the correct one is found?",
+      "answers": {
+        "a": "Dictionary attack",
+        "b": "Birthday attack",
+        "c": "Brute force attack",
+        "d": "Rainbow table attack"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "An attacker captures encrypted traffic and later tries to decrypt it offline. What type of attack is this?",
+      "answers": {
+        "a": "Downgrade attack",
+        "b": "Replay attack",
+        "c": "Offline brute force",
+        "d": "On-path attack"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which of the following protocols is MOST susceptible to a downgrade attack?",
+      "answers": {
+        "a": "TLS",
+        "b": "IPSec",
+        "c": "SSH",
+        "d": "SCP"
+      },
+      "correct": "a"
+    },
+    {
+      "ask": "Which of the following BEST describes the function of a TPM in secure computing?",
+      "answers": {
+        "a": "Provides network isolation",
+        "b": "Performs full disk encryption",
+        "c": "Stores cryptographic keys securely",
+        "d": "Manages user authentication credentials"
+      },
+      "correct": "c"
+    },
+    {
+      "ask": "Which of the following terms BEST describes a secure baseline configuration stored for future comparison?",
+      "answers": {
+        "a": "Snapshot",
+        "b": "Gold image",
+        "c": "Immutable image",
+        "d": "Reference template"
+      },
+      "correct": "b"
+    },
+    {
+      "ask": "Which type of penetration test is performed with zero knowledge of the internal systems?",
+      "answers": {
+        "a": "Gray box",
+        "b": "White box",
+        "c": "Red team",
+        "d": "Black box"
+      },
+      "correct": "d"
+    },
+    {
+      "ask": "Which of the following attacks uses deception to manipulate individuals into revealing sensitive information?",
+      "answers": {
+        "a": "Tailgating",
+        "b": "Phishing",
+        "c": "Whaling",
+        "d": "Impersonation"
+      },
+      "correct": "d"
+    },
+    {
+      "ask": "Which of the following would be MOST effective against zero-day vulnerabilities?",
+      "answers": {
+        "a": "Signature-based antivirus",
+        "b": "Heuristic analysis",
+        "c": "Blacklist filtering",
+        "d": "Security awareness training"
+      },
+      "correct": "b"
+    },
+    {
+    "ask": "Which of the following ports is used by the HTTPS protocol?",
+    "answers": {
+      "a": "80",
+      "b": "443",
+      "c": "21",
+      "d": "25"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which protocol uses TCP port 22 and provides secure remote command-line access?",
+    "answers": {
+      "a": "Telnet",
+      "b": "RDP",
+      "c": "SSH",
+      "d": "FTP"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A network administrator wants to allow secure email sending using STARTTLS. Which port should be enabled?",
+    "answers": {
+      "a": "25",
+      "b": "110",
+      "c": "587",
+      "d": "993"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which port does the DNS protocol typically use for queries?",
+    "answers": {
+      "a": "53",
+      "b": "23",
+      "c": "389",
+      "d": "88"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "Which of the following protocols uses port 49 and is primarily used for authentication?",
+    "answers": {
+      "a": "Kerberos",
+      "b": "TACACS+",
+      "c": "RADIUS",
+      "d": "LDAP"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which port is typically used by the SNMP protocol for monitoring network devices?",
+    "answers": {
+      "a": "161",
+      "b": "69",
+      "c": "162",
+      "d": "443"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "An administrator configures a server to accept FTPS connections. Which of the following ports is likely being used?",
+    "answers": {
+      "a": "22",
+      "b": "989",
+      "c": "20",
+      "d": "69"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which protocol uses port 88 and is designed to provide secure authentication for users and services?",
+    "answers": {
+      "a": "LDAP",
+      "b": "RADIUS",
+      "c": "Kerberos",
+      "d": "IPSec"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which of the following ports is used for retrieving emails via IMAP over SSL/TLS?",
+    "answers": {
+      "a": "110",
+      "b": "993",
+      "c": "995",
+      "d": "143"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "What is the default port for Microsoft’s Remote Desktop Protocol (RDP)?",
+    "answers": {
+      "a": "443",
+      "b": "3389",
+      "c": "22",
+      "d": "445"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which asymmetric algorithm is commonly used for secure key exchange over an untrusted channel?",
+    "answers": {
+      "a": "Diffie-Hellman",
+      "b": "AES",
+      "c": "SHA-256",
+      "d": "MD5"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "In risk management, which of the following BEST describes the process of transferring risk?",
+    "answers": {
+      "a": "Implementing a firewall",
+      "b": "Purchasing cyber insurance",
+      "c": "Creating an incident response plan",
+      "d": "Training employees"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which cryptographic concept ensures that a message has not been altered in transit?",
+    "answers": {
+      "a": "Confidentiality",
+      "b": "Non-repudiation",
+      "c": "Integrity",
+      "d": "Availability"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which type of incident response activity includes lessons learned and updating policies?",
+    "answers": {
+      "a": "Containment",
+      "b": "Eradication",
+      "c": "Detection",
+      "d": "Post-incident review"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "Which of the following cryptographic attacks exploits the reuse of initialization vectors in stream ciphers?",
+    "answers": {
+      "a": "Birthday attack",
+      "b": "Chosen plaintext attack",
+      "c": "IV attack",
+      "d": "Padding oracle attack"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which method would BEST reduce the impact of a single compromised certificate authority in a PKI system?",
+    "answers": {
+      "a": "OCSP stapling",
+      "b": "Key escrow",
+      "c": "CRL publishing",
+      "d": "Certificate pinning"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "Which risk response strategy is used when the organization accepts the likelihood and impact of the risk?",
+    "answers": {
+      "a": "Avoidance",
+      "b": "Transference",
+      "c": "Acceptance",
+      "d": "Mitigation"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which of the following algorithms is considered insecure due to its vulnerability to collision attacks?",
+    "answers": {
+      "a": "SHA-3",
+      "b": "SHA-256",
+      "c": "SHA-1",
+      "d": "Blowfish"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which of the following is a symmetric key block cipher known for its use in legacy systems and VPNs?",
+    "answers": {
+      "a": "RSA",
+      "b": "ECC",
+      "c": "AES",
+      "d": "3DES"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "Which phase of the incident response process involves identifying signs of potential security events?",
+    "answers": {
+      "a": "Preparation",
+      "b": "Detection and analysis",
+      "c": "Recovery",
+      "d": "Containment"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which wireless security protocol introduced Counter Mode with Cipher Block Chaining Message Authentication Code Protocol (CCMP)?",
+    "answers": {
+      "a": "WEP",
+      "b": "WPA",
+      "c": "WPA2",
+      "d": "WPA3"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which of the following authentication factors is considered 'something you are'?",
+    "answers": {
+      "a": "Smart card",
+      "b": "PIN",
+      "c": "Fingerprint",
+      "d": "Security token"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which protocol is commonly used to authenticate users over a wireless 802.1X infrastructure?",
+    "answers": {
+      "a": "SAML",
+      "b": "EAP",
+      "c": "LDAP",
+      "d": "Kerberos"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which of the following access control models enforces access based on classification labels such as 'Top Secret'?",
+    "answers": {
+      "a": "Discretionary Access Control (DAC)",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Mandatory Access Control (MAC)",
+      "d": "Attribute-Based Access Control (ABAC)"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which of the following security controls is **technical** in nature?",
+    "answers": {
+      "a": "Security policy",
+      "b": "Firewall",
+      "c": "Background check",
+      "d": "Security guard"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which wireless attack involves capturing the 4-way handshake to attempt offline cracking of a passphrase?",
+    "answers": {
+      "a": "Jamming",
+      "b": "Evil twin",
+      "c": "Deauthentication attack",
+      "d": "Handshake replay attack"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "Which of the following is a **preventive** security control?",
+    "answers": {
+      "a": "Audit log review",
+      "b": "Motion detection alarm",
+      "c": "Locked server cabinet",
+      "d": "Incident response plan"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which identity federation standard uses XML-based assertions to transfer authentication and authorization data?",
+    "answers": {
+      "a": "OAuth",
+      "b": "SAML",
+      "c": "OpenID Connect",
+      "d": "RADIUS"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which wireless protocol supports Perfect Forward Secrecy (PFS) and stronger key establishment?",
+    "answers": {
+      "a": "WPA2-Personal",
+      "b": "WPA2-Enterprise",
+      "c": "WPA3-Personal",
+      "d": "WEP"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which type of access control uses policies that evaluate combinations of attributes, such as time, location, and device type?",
+    "answers": {
+      "a": "MAC",
+      "b": "RBAC",
+      "c": "DAC",
+      "d": "ABAC"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "Which of the following BEST describes a zero-day vulnerability?",
+    "answers": {
+      "a": "A vulnerability that has been patched but not yet applied",
+      "b": "A vulnerability that is known but unexploited",
+      "c": "A vulnerability unknown to the vendor and actively exploited",
+      "d": "A vulnerability detected during a scheduled scan"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which tool is used to intercept and modify HTTP requests between a client and a web server?",
+    "answers": {
+      "a": "Nmap",
+      "b": "Nikto",
+      "c": "Burp Suite",
+      "d": "Wireshark"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "Which type of malware is specifically designed to provide an attacker with persistent administrative access to a system?",
+    "answers": {
+      "a": "Ransomware",
+      "b": "Rootkit",
+      "c": "Worm",
+      "d": "Keylogger"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which of the following BEST mitigates the risk of VM escape attacks in a virtualized environment?",
+    "answers": {
+      "a": "Disabling hyper-threading",
+      "b": "Implementing proper VM segmentation and patching the hypervisor",
+      "c": "Using full disk encryption inside the VM",
+      "d": "Disabling clipboard sharing between host and guest"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which technique is commonly used in phishing campaigns to make a malicious domain appear legitimate?",
+    "answers": {
+      "a": "Privilege escalation",
+      "b": "Typo-squatting",
+      "c": "DLL injection",
+      "d": "Buffer overflow"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which cloud model provides the most granular control over the operating system and network configuration?",
+    "answers": {
+      "a": "SaaS",
+      "b": "IaaS",
+      "c": "PaaS",
+      "d": "SECaaS"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "Which of the following tools is BEST suited for performing a credential brute-force attack?",
+    "answers": {
+      "a": "Hydra",
+      "b": "Tcpdump",
+      "c": "OpenVAS",
+      "d": "Autopsy"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "Which type of vulnerability allows attackers to inject malicious code into a web application via input fields?",
+    "answers": {
+      "a": "Cross-Site Scripting (XSS)",
+      "b": "Race condition",
+      "c": "Man-in-the-middle (MitM)",
+      "d": "ARP poisoning"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "Which of the following is the BEST defense against container breakout vulnerabilities?",
+    "answers": {
+      "a": "Using containers on a hardened host with proper isolation mechanisms",
+      "b": "Encrypting container volumes",
+      "c": "Running containers as root",
+      "d": "Using a monolithic container image"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "Which security tool is specifically designed for vulnerability scanning of web servers and web applications?",
+    "answers": {
+      "a": "John the Ripper",
+      "b": "Wireshark",
+      "c": "Nikto",
+      "d": "Metasploit"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A system administrator notices that, despite having antivirus and endpoint detection enabled, several machines are exhibiting unusual behavior, such as processes spawning PowerShell with base64-encoded arguments. What is the BEST immediate response?",
+    "answers": {
+      "a": "Reboot the affected systems",
+      "b": "Update the antivirus signatures",
+      "c": "Isolate the affected systems from the network",
+      "d": "Create a new PowerShell execution policy"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "An employee reports receiving emails from the CFO asking to urgently transfer funds to a new vendor. The email address closely resembles the CFO’s real address, and SPF, DKIM, and DMARC are configured. What is the MOST likely cause?",
+    "answers": {
+      "a": "Insider threat",
+      "b": "Pharming attack",
+      "c": "Business email compromise (BEC) with domain spoofing",
+      "d": "Misconfigured email client"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A company enforces full disk encryption and screensaver timeouts on all laptops. However, one device was recently stolen and the encryption key was extracted by the attacker. Which security control was MOST likely missing?",
+    "answers": {
+      "a": "UEFI password",
+      "b": "TPM enforcement",
+      "c": "Endpoint detection and response",
+      "d": "BitLocker PIN requirement"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "A security analyst notices large amounts of outbound DNS traffic to random subdomains. Internal systems are fully patched and antivirus shows no alerts. What is the MOST appropriate next step?",
+    "answers": {
+      "a": "Reboot DNS servers",
+      "b": "Initiate data loss prevention (DLP) scan",
+      "c": "Analyze for DNS tunneling activity",
+      "d": "Flush DNS cache"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "During a cloud security audit, it’s discovered that an S3 bucket containing sensitive data was publicly accessible despite existing IAM policies. What is the MOST likely reason?",
+    "answers": {
+      "a": "The IAM role was incorrectly configured for read-only",
+      "b": "The bucket policy allowed public access",
+      "c": "The encryption settings were disabled",
+      "d": "The access logs were disabled"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A developer accidentally commits AWS credentials to a public GitHub repository. What is the FIRST action that should be taken?",
+    "answers": {
+      "a": "Rotate the exposed credentials",
+      "b": "Open a GitHub issue for visibility",
+      "c": "Restrict access to the repository",
+      "d": "Revoke the IAM role associated with the developer"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "A pentester gains access to a system using default credentials. The system was deployed using an automated cloud template. Which control would BEST prevent this in the future?",
+    "answers": {
+      "a": "Implement password complexity requirements",
+      "b": "Enforce infrastructure as code validation with secrets scanning",
+      "c": "Enable full-disk encryption",
+      "d": "Disable remote access by default"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A user complains they are being locked out of their account repeatedly. Logs show multiple failed login attempts from different locations. MFA is enabled. What is the BEST explanation?",
+    "answers": {
+      "a": "Weak password policy",
+      "b": "Credential stuffing attack",
+      "c": "Misconfigured MFA timeout",
+      "d": "Expired certificate authentication"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A company utilizes containers to deploy microservices. One container begins consuming unexpected amounts of CPU and network resources. What is the BEST action to investigate the issue?",
+    "answers": {
+      "a": "Apply a firewall rule to block the container",
+      "b": "Check for exposed Docker sockets and audit container logs",
+      "c": "Reboot the container host",
+      "d": "Apply a resource quota policy"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A cloud application allows public uploads of images. A researcher discovers it can be tricked into executing JavaScript code embedded in an image file. What is the vulnerability called?",
+    "answers": {
+      "a": "Cross-site scripting via MIME-sniffing",
+      "b": "Command injection via file metadata",
+      "c": "Improper file permission escalation",
+      "d": "Stored XSS via content-type misconfiguration"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "An organization implements a solution that allows users to authenticate to third-party services using their corporate credentials, without sharing passwords. Which of the following protocols is MOST likely used?",
+    "answers": {
+      "a": "LDAP",
+      "b": "SAML",
+      "c": "RADIUS",
+      "d": "Kerberos"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A system administrator wants to enforce strict access based on a user's department, time of access, and location. Which access control model BEST supports this requirement?",
+    "answers": {
+      "a": "Discretionary Access Control (DAC)",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Mandatory Access Control (MAC)",
+      "d": "Attribute-Based Access Control (ABAC)"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "A browser warning indicates that the certificate for a website has been revoked. Which technology MOST LIKELY provided this information in real-time?",
+    "answers": {
+      "a": "CRL",
+      "b": "TLS handshake failure",
+      "c": "OCSP",
+      "d": "Key escrow"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "An organization needs to ensure sensitive data is anonymized before being used in test environments. Which of the following techniques is MOST suitable?",
+    "answers": {
+      "a": "Hashing",
+      "b": "Encryption",
+      "c": "Tokenization",
+      "d": "Key rotation"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A company is preparing for disaster recovery. Which policy document defines how quickly a business process must be restored after disruption?",
+    "answers": {
+      "a": "Acceptable Use Policy",
+      "b": "Privacy Impact Assessment",
+      "c": "Business Continuity Plan",
+      "d": "Business Impact Analysis"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "A SCADA environment was compromised after a firmware update server was spoofed and malicious code was installed on multiple PLCs. Which control could have BEST prevented this?",
+    "answers": {
+      "a": "Air gapping",
+      "b": "Application whitelisting",
+      "c": "Encrypted firmware with digital signatures",
+      "d": "Time-based access controls"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "An attacker intercepts a TLS handshake and forces the connection to downgrade to an older protocol version. What type of attack is being performed?",
+    "answers": {
+      "a": "Birthday attack",
+      "b": "Replay attack",
+      "c": "Downgrade attack",
+      "d": "Session fixation"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A company adopts a BYOD policy. To enforce security, devices must have encryption, remote wipe, and screen lock enabled. What is the BEST solution to enforce these requirements?",
+    "answers": {
+      "a": "Mobile device management (MDM)",
+      "b": "Data loss prevention (DLP)",
+      "c": "Endpoint detection and response (EDR)",
+      "d": "Firewall with device fingerprinting"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "Under GDPR, which of the following would MOST likely be classified as sensitive personal data?",
+    "answers": {
+      "a": "Anonymized website usage statistics",
+      "b": "An email address used for newsletters",
+      "c": "Genetic data stored by a healthcare provider",
+      "d": "Browser session ID"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A digital certificate has expired, but the user is still able to access services without warnings. Which of the following is MOST likely misconfigured?",
+    "answers": {
+      "a": "Time synchronization on the client",
+      "b": "OCSP stapling",
+      "c": "Certificate Authority trust chain",
+      "d": "CRL distribution point"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "An engineer discovers that a user with no administrative rights is able to execute scripts that change system configurations on a Linux server. Which of the following is the MOST likely cause?",
+    "answers": {
+      "a": "The user belongs to the sudo group",
+      "b": "The scripts have SUID permissions set",
+      "c": "SELinux is enforcing the wrong policy",
+      "d": "The script is owned by root and set to immutable"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A user reports that their device's Wi-Fi automatically connects to a rogue AP with the same SSID as their company network. WPA2 is enabled. What security feature would BEST prevent this in the future?",
+    "answers": {
+      "a": "Disabling auto-connect",
+      "b": "Using MAC address filtering",
+      "c": "Implementing 802.1X with certificate-based authentication",
+      "d": "Switching to WPA3-Personal"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "During a tabletop exercise, the IT team is unsure who has the authority to activate the disaster recovery process. Which type of documentation is MOST likely missing or incomplete?",
+    "answers": {
+      "a": "Incident Response Plan",
+      "b": "Business Impact Analysis",
+      "c": "Chain of Custody Document",
+      "d": "Runbook"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "A recent vulnerability scan revealed that a public-facing web server accepts deprecated TLS versions. Which of the following is the BEST course of action?",
+    "answers": {
+      "a": "Enable HSTS",
+      "b": "Update the server certificate to SHA-512",
+      "c": "Disable TLS 1.0 and 1.1 in the web server config",
+      "d": "Implement a WAF in front of the server"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A company's developers need to test their application in multiple operating system environments quickly and securely. Which of the following would BEST support this requirement?",
+    "answers": {
+      "a": "Type 1 hypervisor on local machines",
+      "b": "Containerization with orchestration",
+      "c": "Bare-metal servers with snapshots",
+      "d": "Virtual desktops in an RDP farm"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A user clicks on a link in a phishing email and unknowingly installs a keylogger. The EDR system detects the process and blocks it. What stage of the incident response process comes NEXT?",
+    "answers": {
+      "a": "Eradication",
+      "b": "Containment",
+      "c": "Identification",
+      "d": "Recovery"
+    },
+    "correct": "a"
+  },
+  {
+    "ask": "An attacker uses a rainbow table to reverse engineer hashed passwords from a compromised database. Which of the following would BEST prevent this type of attack?",
+    "answers": {
+      "a": "Enforce password length and complexity",
+      "b": "Use key stretching with PBKDF2 or bcrypt",
+      "c": "Enable MFA for all users",
+      "d": "Hash passwords using SHA-256"
+    },
+    "correct": "b"
+  },
+  {
+    "ask": "A software development team adopts Agile and wants to ensure security is integrated into each sprint. Which approach BEST supports this goal?",
+    "answers": {
+      "a": "Code reviews at the end of each release cycle",
+      "b": "Penetration testing after product delivery",
+      "c": "Shift-left security and static code analysis during development",
+      "d": "Daily security meetings with the CISO"
+    },
+    "correct": "c"
+  },
+  {
+    "ask": "A helpdesk employee accidentally emailed an internal vulnerability scan to an external vendor. Which of the following BEST describes this situation?",
+    "answers": {
+      "a": "Data exfiltration",
+      "b": "Availability issue",
+      "c": "Data loss",
+      "d": "Data breach"
+    },
+    "correct": "d"
+  },
+  {
+    "ask": "An attacker exploits a flaw in a web application that allows injecting arbitrary SQL commands into a backend database. What is the BEST mitigation strategy?",
+    "answers": {
+      "a": "Use stored procedures for all queries",
+      "b": "Implement TLS between the web server and DB",
+      "c": "Enable database auditing and logging",
+      "d": "Configure a reverse proxy with rate limiting"
+    },
+    "correct": "a"
+  }
+  ]
+}
