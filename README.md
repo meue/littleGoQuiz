@@ -10,19 +10,11 @@ A simple, interactive quiz application for the terminal – ideal for learning a
 - Repeats incorrectly answered questions to reinforce learning
 - Simple terminal UI with clear prompts and feedback
 
-## Installation
-
-```bash
-git clone https://github.com/yourusername/terminal-quiz.git
-cd terminal-quiz
-go build -o quiz
-```
-
 ## Usage
 
 ```bash
-git clone https://github.com/yourusername/terminal-quiz.git
-cd terminal-quiz
+git clone https://github.com/meue/littleGoQuiz.git
+cd littleGoQuiz
 go build -o quiz
 ./quiz
 ```
